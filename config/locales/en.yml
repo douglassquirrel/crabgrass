@@ -29,7 +29,7 @@ en:
 
   #logout: Logout
   #edit_featured_content: edit featured content
-  #you_have_no_groups: "You have no groups"
+  #you_have_no_groups: "You have no projects"
 
   ##
   ## GENERIC MACROS
@@ -65,16 +65,16 @@ en:
   contributions: "Contributions"
   contributors: "Contributors"
   users: "Users"
-  groups: "Groups"
+  groups: "Projects"
   networks: "Networks"
   committees: "Committees"
   councils: "Councils"
-  group: "Group"
+  group: "Project"
   network: "Network"
   committee: "Committee"
   council: "Council"
   contact: "Friend"
-  member_groups_of_network: "Member Groups"
+  member_groups_of_network: "Member Projects"
   peers: "Peers"
   all: "All"
   none: "None"
@@ -100,7 +100,7 @@ en:
   recent_activity: "Recent Activity"
   activity: "Activity"
   recent_pages: "Recent Pages"
-  group_pages: "Group Pages"
+  group_pages: "Project Pages"
   recently_created: "Recently Created"
   most_active: "Most Active"
   most_stars: "Most Stars"
@@ -113,7 +113,7 @@ en:
 
   search_headline: "Search"
   search_input_caption: "Search for pages"
-  search_this_group: "this group only"
+  search_this_group: "this project only"
   search_this_person: "this person only"
   search_link: "Search"
 
@@ -225,7 +225,7 @@ en:
   ##
 
   menu_me: "Me"
-  menu_groups: "Groups"
+  menu_groups: "Projects"
   menu_home: "Home"
   menu_chat: "Chat"
   menu_people: "People"
@@ -510,7 +510,7 @@ en:
   add_photo_to_gallery: "Click on a Photo to add it"
   cancel_link: "cancel"
   file_must_be_image_error: "File must be an image to be part of a gallery."
-  group_not_allowed_to_view_image_error: "The group that owns this page is not allowed to view this image."
+  group_not_allowed_to_view_image_error: "The project that owns this page is not allowed to view this image."
   add_another_file: "Add another file"
   slideshow_delay_input: "Update every {{input_field}} seconds"
   add_comment: "Add Comment"
@@ -563,7 +563,7 @@ en:
   view_unread_pages_option: "Unread Pages"
   view_public_pages_option: "The World"
   view_networks_pages_option: "My World"
-  view_groups_pages_option: "My Groups and Me"
+  view_groups_pages_option: "My Projects and Me"
 
   view_work_pages_description: "Pages that you own, participated in, or are watching."
   view_watched_pages_description: "Pages that you are watching."
@@ -571,8 +571,8 @@ en:
   view_owner_pages_description: "Pages you own."
   view_unread_pages_description: "Unread pages that you own, participated in, or are watching."
   view_public_pages_description: "All pages that you have access too, including public pages."
-  view_networks_pages_description: "All pages of your groups and networks and those shared between you and other users."
-  view_groups_pages_description: "All pages of your groups and your own pages."
+  view_networks_pages_description: "All pages of your projects and networks and those shared between you and other users."
+  view_groups_pages_description: "All pages of your projects and your own pages."
 
   my_tasks: "Tasks"
   my_tasks_headline: "My Tasks"
@@ -711,23 +711,23 @@ en:
 
   profile_option_may_see_committees: "Show committees"
   profile_option_may_see_networks: "Show networks"
-  profile_option_may_see_members: "Show group members"
+  profile_option_may_see_members: "Show project members"
   profile_option_may_request_membership: "Allow membership requests"
-  profile_option_may_see_groups: "Show group memberships"
+  profile_option_may_see_groups: "Show project memberships"
   profile_option_may_see_contacts: "Show your friends"
   profile_option_may_request_contact: "May request to be friends"
   profile_option_may_pester: "May pester me"
   profile_option_allow_peers: "Visible to peers"
   profile_option_may_see: "Profile is visible"
 
-  user_profile_description_may_see_groups: "Allow people to see what groups you are a member of."
+  user_profile_description_may_see_groups: "Allow people to see what projects you are a member of."
   user_profile_description_may_see_contacts: "Allow people to see your list of friends."
   user_profile_description_may_request_contact: "Allow people to request to be your friend."
   user_profile_description_may_pester: "Allow people to share content with you and send you invitations."
-  user_profile_description_allow_peers: "If checked, people you share a common group with will be able to view your private profile."
+  user_profile_description_allow_peers: "If checked, people you share a common project with will be able to view your private profile."
   user_profile_description_may_see: "If checked, the profile information below will be visible. Otherwise, your profile will be hidden entirely."
 
-  group_profile_description_may_see_groups: "Allow people to see the groups that are part of this {{group_type}}."
+  group_profile_description_may_see_groups: "Allow people to see the projects that are part of this {{group_type}}."
   group_profile_description_may_see_committees: "Allow people to see what committees this {{group_type}} has."
   group_profile_description_may_see_networks: "Allow people to see what networks this {{group_type}} is part of."
   group_profile_description_may_see_members: "Allow people to see the membership list of this {{group_type}}."
@@ -746,33 +746,33 @@ en:
   allow_membership_requests: 'Allow Membership Requests'
   group_home_headline: "{{group_type}} Home"
   group_home_welcome: "Welcome"
-  group_administration_not_allowed: "You cannot administer this group."
-  page_not_part_of_group: "Page not part of this group"
-  group_successfully_updated: "Group was successfully updated."
-  only_last_menber_can_delete_group: "You can only delete a group if you are the last member"
-  group_successfully_created: "Group was successfully created."
-  dont_understand_group_type: "Could not understand group type {{type}}"
+  group_administration_not_allowed: "You cannot administer this project."
+  page_not_part_of_group: "Page not part of this project"
+  group_successfully_updated: "Project was successfully updated."
+  only_last_menber_can_delete_group: "You can only delete a project if you are the last member"
+  group_successfully_created: "Project was successfully created."
+  dont_understand_group_type: "Could not understand project type {{type}}"
   dont_have_permission_to_create_committees: "You do not have permission to create committees under {{group}}"
-  group_publicly_visible_description: Group appears in public directory and group <i>profile</i> is viewable by non-members at {{domain}}/yourgroupname.
-  committee_publicly_visible_description: Committees are viewable by non-members at {{domain}}/yourgroupname
+  group_publicly_visible_description: Project appears in public directory and project <i>profile</i> is viewable by non-members at {{domain}}/yourprojectname.
+  committee_publicly_visible_description: Committees are viewable by non-members at {{domain}}/yourprojectname
   group_members_publicly_visible: Make Members Publicly Visible
-  group_members_publicly_visible_description: Members are viewable by non-members at {{domain}}/yourgroupname. Also, the name of the group will be listed on each members profile page ({{domain}}/username)
+  group_members_publicly_visible_description: Members are viewable by non-members at {{domain}}/yourprojectname. Also, the name of the project will be listed on each members profile page ({{domain}}/username)
   page_list: Page list
   recent_network_pages: "Recent Network Pages"
-  recent_member_group_pages: "Recent Activity from Your Groups in {{network}}"
-  create_group_link: "create group"
+  recent_member_group_pages: "Recent Activity from Your Projects in {{network}}"
+  create_group_link: "create project"
   typing: typing
   away: away
-  you_are_not_member_of_any_group: You are not a member of any group.
+  you_are_not_member_of_any_group: You are not a member of any project.
   back_to_group: back_to {{group_name}}
   when_does_feature_expire: When does this feature expire?
   unfeature_button: Unfeature!
   feature_button: Feature!
   reactivate_button: Reactivate!
-  no_group_named: there is no group named <b>{{name}}</b>.
-  group_wiki: Group Wiki
+  no_group_named: there is no project named <b>{{name}}</b>.
+  group_wiki: Project Wiki
   rss_feed: RSS Feed
-  group_has_no_public_profile: This group does not have a public profile.
+  group_has_no_public_profile: This project does not have a public profile.
   pending_tasks: 'pending tasks'
   completed_tasks: 'completed tasks'
   no_committees: no committees
@@ -780,7 +780,7 @@ en:
   founded: Founded
   not_set: not set
   no_members: (no members)
-  new_group: "New group"
+  new_group: "New project"
   group_language: "The main language of this {{group}}."
   group_location: "The main location of this {{group}}."
   group_summary: "Brief information regarding this {{group}}."
@@ -797,7 +797,7 @@ en:
   featured_content_header: "Featured"
   edit_featured_content_for_group: Edit Featured Content For {{group_name}}
   edit_featured_content_link: "edit featured content"
-  mark_pages_as_featured_content_for_group: Here you can mark pages as featured content of this group.
+  mark_pages_as_featured_content_for_group: Here you can mark pages as featured content of this project.
   current_featured_content: Current Featured Content
   not_featured_content: Not yet Featured Content
   expired_featured_content: Expired Featured Content
@@ -813,13 +813,13 @@ en:
   my_networks_link: "my networks"
   network_directory_link: "network directory"
 
-  my_groups: "My Groups"
-  group_directory: "Group Directory"
+  my_groups: "My Projects"
+  group_directory: "Project Directory"
   directory_of_networks: "Directory of Networks"
-  directory_of_groups: "Directory of Groups"
+  directory_of_groups: "Directory of Projects"
 
-  my_groups_link: "My Groups"
-  group_directory_link: "Group Directory"
+  my_groups_link: "My Projects"
+  group_directory_link: "Project Directory"
 
   new_people_in_weeks: "new people in last 2 weeks"
 
@@ -847,7 +847,7 @@ en:
   send_join_request: "Send request to join {{group_name}}"
   group_destroyed_message: "{{group_type}} Destroyed"
 
-  remove_group_link: "Remove Group"
+  remove_group_link: "Remove Project"
 
   # results
 
@@ -859,7 +859,7 @@ en:
 
   # create/edit forms
 
-  link_name_description: "This name is how you will refer to this group in links and URLs. It must only contain alphanumeric characters, no spaces allowed."
+  link_name_description: "This name is how you will refer to this project in links and URLs. It must only contain alphanumeric characters, no spaces allowed."
   fullname: "Full Name"
   descriptive_name_for_display: "A descriptive name used for display"
   link_name: "Link Name"
@@ -869,13 +869,13 @@ en:
 
   coordinating_council: "Coordinating Council"
   this_is_coordinating: "This is the <strong>coordinating council</strong> for {{parent_group}}."
-  new_council: "New council for group {{group_name}}"
-  council_help_text: "If this group has a coordinating council, then only a member of that council may administer the group. Otherwise, any member of the group may do so."
+  new_council: "New council for project {{group_name}}"
+  council_help_text: "If this project has a coordinating council, then only a member of that council may administer the project. Otherwise, any member of the project may do so."
 
   # committee
 
   this_is_committee: "This committee is part of {{parent_group}}."
-  new_committee: "New committee for group {{group_name}}"
+  new_committee: "New committee for project {{group_name}}"
   dual_memberships: "Dual memberships"
   dual_membership_info: "Members of {{group_type}} {{group_name}} who should also be in committee {{committee_name}}"
   edit_committe: "Edit Committee"
@@ -883,7 +883,7 @@ en:
 
   # networks
 
-  network_initial_member: "Choose a group to be an initial member of this network."
+  network_initial_member: "Choose a project to be an initial member of this network."
 
   # menu items
 
@@ -900,17 +900,17 @@ en:
   # appearance
 
   edit_layout_heading: "Edit Layout"
-  group_icon: "Group Icon"
+  group_icon: "Project Icon"
   select_page_types: "Select Page Types"
-  select_visible_group_widgets: "Select the widgets visible on your group's front page"
+  select_visible_group_widgets: "Select the widgets visible on your project's front page"
 
   widget_index: "Widget {{index}}"
 
   # profiles
 
-  may_request_membership_description: "A \"join group\" link will appear on your group page. This will send a request for membership to your group that can be accepted or rejected."
-  open_group: "Open Group"
-  open_group_description: "Users are immediately added to the group - request don't have to be approved"
+  may_request_membership_description: "A \"join project\" link will appear on your project page. This will send a request for membership to your project that can be accepted or rejected."
+  open_group: "Open Project"
+  open_group_description: "Users are immediately added to the project - request don't have to be approved"
 
 
   ##
@@ -919,9 +919,9 @@ en:
 
   contact_request_message_label: "Tell {{user}} why you want to be their friend."
   add_contact_info: "When another user is your friend, they are able to see when you are logged in and they have access to see your full profile. Once you become a friend of another person, they also become your friend."
-  join_request_info: "You will not become a member of this group until your request has been approved. You can track the status of your requests by visiting: {{my_requests_url}}."
+  join_request_info: "You will not become a member of this project until your request has been approved. You can track the status of your requests by visiting: {{my_requests_url}}."
 
-  network_invite_info: "Enter the names of the groups you would like to invite to join this network."
+  network_invite_info: "Enter the names of the projects you would like to invite to join this network."
 
   approve_contact_info: "A friend request already exists from this user. Do you wish to approve it?"
   approve_contact_request: "Approve contact request"
@@ -944,7 +944,7 @@ en:
   state: "state"
   action: "action"
   request_to_friend_description: "{{user}} would like to be the friend of {{other_user}}"
-  request_to_join_our_network_description: "group {{group}} was invited to join network {{network}}"
+  request_to_join_our_network_description: "project {{group}} was invited to join network {{network}}"
   request_to_join_us_description: "{{user}} was invited to join {{group}}"
   request_to_join_us_via_email_description: "{{email}} was invited to join {{group}}"
   request_to_join_you_description: "{{user}} requested to join {{group}}"
@@ -955,9 +955,9 @@ en:
 
     If no one or one member rejects this proposal and all other members of the {{group}} it, then the {{group}} will get destroyed immediatelly.
 
-    If there are some approvals, then after one month votes will be tallied and the group will get destroyed if 2/3 or more of the votes are to approve.
+    If there are some approvals, then after one month votes will be tallied and the project will get destroyed if 2/3 or more of the votes are to approve.
 
-    Finally, for a group with a coordinating council, only the council members can vote on destroying the group.
+    Finally, for a project with a coordinating council, only the council members can vote on destroying the project.
 
   request_votes_tally_info: "{{approved_count}} voted to approve / {{rejected_count}} voted to reject"
 
@@ -971,22 +971,22 @@ en:
   invites_sent: "{{count}} invitations sent"
   contact_request_sent: "Friend request has been sent"
   request_to_join_sent: "Request to join has been sent"
-  request_to_destroy_sent: "Your proposal to destroy this group has been sent to the groups members. If this proposal is not vetoed in a month, this group will be destroyed."
+  request_to_destroy_sent: "Your proposal to destroy this project has been sent to the projects members. If this proposal is not vetoed in a month, this project will be destroyed."
   remove_contact_confirmation: "Are you sure you wish to no longer be friends with {{user}}?"
   contact_removed: "{{user}} has been removed from your contact list."
   not_contact_of: "You are not the contact of {{user}}."
   already_contacts_info: "You are already the friend of this person."
   try_again: "Try Again"
   invite_accept_info: "Do you already have an account on this website? Click one of the following links to accept the invitation."
-  invite_accept_headline: 'Accept invitation to join group "{{group_name}}"'
+  invite_accept_headline: 'Accept invitation to join project "{{group_name}}"'
   invite_accept_via_existing_account: "I already have an account"
   invite_accept_via_register: "I need to register a new account"
-  join_group_success: "You have joined group {{group_name}}"
+  join_group_success: "You have joined project {{group_name}}"
 
   # invite/request errors
 
   invite_error_redeemed: "Invite has already been redeemed."
-  invite_error_already_member: "You are already a member of that group."
+  invite_error_already_member: "You are already a member of that project."
   invite_not_found: "Invite not found"
   request_exists_error: "Request already exists for {{recipient}}"
   not_allowed_to_respond_to_request: "{{user}} is not allowed to {{command}} the request."
@@ -1013,7 +1013,7 @@ en:
   unread: "unread"
   read: "read"
   all_people: "All People"
-  all_groups: "All Groups"
+  all_groups: "All Projects"
   all_networks: "All Networks"
   # ^^ i think this should go away soon, as soon as we have a better group directory.
   all_states: "All States"
@@ -1053,7 +1053,7 @@ en:
   # sidebar
 
   move_this_page: "Move This Page"
-  move_page_to_different_group: "Move this page to a different group"
+  move_page_to_different_group: "Move this page to a different project"
 
   announcements: "Announcements"
   watch_checkbox: "Watch For Updates"
@@ -1089,7 +1089,7 @@ en:
 
   page_details: "Page Details"
   participation: "Participation"
-  user_or_group_name: "User or group name"
+  user_or_group_name: "User or project name"
   information: "Information"
   remove_last_access_error: "You cannot remove your last remaining access to this page."
   remove_access_error: "The access to this page could not be removed. You cannot remove the owners access or an access that is necessary for you to administrate the page."
@@ -1122,13 +1122,13 @@ en:
   share_page_link: "Share {{page_class}}"
   share_page_options: "Choose options"
   share_page_recipients: "Share page with"
-  share_page_recipients_sections: "Choose from your groups or friends"
+  share_page_recipients_sections: "Choose from your projects or friends"
   share_page_recipients_selection: "Make your selection"
   share_page_recipients_results: "This {{page_class}} will be shared with"
   notify_page_link: "Send Notification"
   notify_contribution: "<b>Prior Contribution:</b> notify people who have made a <b>contribution</b> to this page."
-  notify_current_access: "<b>Current Access:</b> notify people or groups who currently have access to this page."
-  notify_new_access: "<b>New Access:</b> share this page with new people or groups, and notify them."
+  notify_current_access: "<b>Current Access:</b> notify people or projects who currently have access to this page."
+  notify_new_access: "<b>New Access:</b> share this page with new people or projects, and notify them."
   notification_message: "Notification Message"
 
   send_only_with_encryption: "Send only if encrypted distribution is possible"
@@ -1149,9 +1149,9 @@ en:
   notify_no_access_error: 'Sorry, "{{name}}" does not have access to this page.'
   share_already_exists_error: '"{{name}}" already has access to this page.'
   share_pester_error: 'Sorry, you are not allowed to share with "{{name}}".'
-  name_or_email_not_found: '"{{name}}" does not match the name of any users or groups and is not a valid email address.'
+  name_or_email_not_found: '"{{name}}" does not match the name of any users or projects and is not a valid email address.'
 
-  entity_autocomplete_tip: "Enter the name of a group or person."
+  entity_autocomplete_tip: "Enter the name of a project or person."
 
   notice_with_message: "with message {{message}}"
 
@@ -1174,8 +1174,8 @@ en:
   title_help: "Required. The title is used to identify this page."
   summary_help: "Optional. The summary is a sentence or paragraph that briefly describes the content of this page."
   tags_help: "Optional. For tags, use a few words that best describe this page."
-  page_owner_help: "The page owner is the person or group with primary responsibility for this page. You can choose yourself, or any of the groups you are in."
-  sharing_help: "Optional. You can share this page with multiple recipients (either users or groups)."
+  page_owner_help: "The page owner is the person or project with primary responsibility for this page. You can choose yourself, or any of the projects you are in."
+  sharing_help: "Optional. You can share this page with multiple recipients (either users or projects)."
   coordinator_help: "<b>Full Access</b> will grant unrestricted ability to modify this page (including deleting and sharing)."
   participant_help: "<b>Write Ability</b> will allow editing of this page."
   viewer_help: "<b>Read Only</b> will allow viewing of this page, and nothing more."
@@ -1192,16 +1192,16 @@ en:
   page_history_deleted_page: "{{user_name}} has deleted the page"
   page_history_destroyed_comment: "{{user_name}} destroyed a comment"
   page_history_details_change_title: "From: \"{{from}}\" To: \"{{to}}\""
-  page_history_granted_group_full_access: "{{user_name}} granted full access to the group {{object_name}}"
-  page_history_granted_group_read_access: "{{user_name}} granted read access to the group {{object_name}}"
-  page_history_granted_group_write_access: "{{user_name}} granted write access to the group {{object_name}}"
+  page_history_granted_group_full_access: "{{user_name}} granted full access to the project {{object_name}}"
+  page_history_granted_group_read_access: "{{user_name}} granted read access to the project {{object_name}}"
+  page_history_granted_group_write_access: "{{user_name}} granted write access to the project {{object_name}}"
   page_history_granted_user_full_access: "{{user_name}} granted full access to the user {{object_name}}"
   page_history_granted_user_read_access: "{{user_name}} granted read access to the user {{object_name}}"
   page_history_granted_user_write_access: "{{user_name}} granted write access to the user {{object_name}}"
   page_history_make_private: "{{user_name}} has made unchecked the option to make the page public"
   page_history_make_public: "{{user_name}} has made the page public"
   page_history_remove_star: "{{user_name}} has removed a star"
-  page_history_revoked_group_access: "{{user_name}} revoked access to the group {{object_name}}"
+  page_history_revoked_group_access: "{{user_name}} revoked access to the project {{object_name}}"
   page_history_revoked_user_access: "{{user_name}} revoked access to the user {{object_name}}"
   page_history_start_watching: "{{user_name}} has started watching this page"
   page_history_stop_watching: "{{user_name}} has stop watching this page"
@@ -1248,8 +1248,8 @@ en:
   external_video_page_description: "Show a video hosted on an external website."
   external_video_page_display: "External Video"
 
-  discussion_page_description: "Discuss a particular topic with groups or other users."
-  discussion_page_display: "Group Discussion"
+  discussion_page_description: "Discuss a particular topic with projects or other users."
+  discussion_page_display: "Project Discussion"
 
   message_page_description: "Send a personal message to individual recipients."
   message_page_display: "Personal Message"
@@ -1548,19 +1548,19 @@ en:
   ## EMAIL
   ##
 
-  group_invite_subject: "Invitation to join group \"{{group}}\""
+  group_invite_subject: "Invitation to join project \"{{group}}\""
   group_invite_email: |
-    {{from_user}} has invited you to join group "{{group}}".
+    {{from_user}} has invited you to join project "{{group}}".
 
-    If you wish to join this group, click here:
+    If you wish to join this project, click here:
 
       {{accept_invite_link}}
 
-    The home page of this group can be found here:
+    The home page of this project can be found here:
 
       {{group_home_link}}
 
-    If you do not wish to join this group, simply ignore this email.
+    If you do not wish to join this project, simply ignore this email.
 
   email_notice_subject: 'Check out page "{{title}}"'
   email_notice_hello_with_message: "Hello, {{from}} has sent you a web page with the following message: {{message}}"
@@ -1580,9 +1580,9 @@ en:
   last_seen: "last seen"
 
   directory_of_people: Directory of People
-  directory_peers_description: "A list of your friends and all the people in your groups and networks."
+  directory_peers_description: "A list of your friends and all the people in your projects and networks."
   no_contacts_msg: You have no friends.
-  my_peers_explain: users I share a common group with
+  my_peers_explain: users I share a common project with
   no_peers_msg: You have no peers.
   my_contacts_link: my friends
   my_contacts: My friends
@@ -1593,7 +1593,7 @@ en:
   all_people: All People
   my_peers_link: my peers
   my_peers: My Peers
-  my_peers_description: users I share a common group with
+  my_peers_description: users I share a common project with
   you_have_no_contacts: 'You have no friends'
   you_have_no_peers: 'You have no peers'
 
@@ -1655,11 +1655,11 @@ en:
   welcome_find_people_link: "Find people"
   welcome_find_people_text: "Browse the user directory for people you know."
 
-  welcome_find_groups_link: "Find groups"
-  welcome_find_groups_text: "Browse the group directory for groups to join."
+  welcome_find_groups_link: "Find projects"
+  welcome_find_groups_text: "Browse the project directory for projects to join."
 
-  welcome_create_group_link: "Create a new group"
-  welcome_create_group_text: "Create a new group and invite other people to join. Groups allow you to share and collaborate with other people."
+  welcome_create_group_link: "Create a new project"
+  welcome_create_group_text: "Create a new project and invite other people to join. Projects allow you to share and collaborate with other people."
 
   welcome_create_page_link: "Create a new page"
   welcome_create_page_text: "You can create new discussions, new wiki pages, upload images and files, start task lists, and much more..."
@@ -1670,14 +1670,14 @@ en:
 
   have_your_say: "Have Your Say!"
   contribute_to_site: "Contribute to Site"
-  create_a_group: "Create a Group"
+  create_a_group: "Create a Project"
   create_a_network: "Create a Network"
   see_tips_to_get_started: "See Tips to get started"
   hide_tips: "Hide Tips"
   most_active_members: "Most Active Members"
   recently_active_members: "Recently Active Members"
-  most_active_groups: "Most Active Groups"
-  recently_active_groups: "Recently Active Groups"
+  most_active_groups: "Most Active Projects"
+  recently_active_groups: "Recently Active Projects"
   network_settings: "Network Settings"
 
   administer_site: "Administer Site"
@@ -1701,7 +1701,7 @@ en:
 
   make_public_requested: "Make Public Requested"
   moderation: "Moderation"
-  admins_may_moderate: "Allow council members to moderate the content of the group"
+  admins_may_moderate: "Allow council members to moderate the content of the project"
   admins_may_moderate_description: "When this option is selected, council members will have access to a moderation tool which allows them to review and remove pages and comments."
 
   ##
